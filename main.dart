@@ -33,7 +33,9 @@ void main() {
 
   Virtual asignatura1 = Virtual("hrrp://zajuna.sena.edu.co", teams, "POO", 200);
   Tema tema1 = Tema("principios de la POO", 10);
+  Tema tema2 = Tema("Desarrollo web", 80);
   asignatura1.agregarTema(tema1);
+  asignatura1.agregarTema(tema2);
   asignatura1.obtenerUrl();
   asignatura1.listarTema();
 }
